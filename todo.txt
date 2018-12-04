@@ -1,0 +1,7 @@
+Grid
+test and code all column render and render edits 
+seed modal popup data with edit row id and test calling api use form serialize()
+show confirm dialog with delete
+finish api calls
+style all components.
+

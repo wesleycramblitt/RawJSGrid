@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <script src="index.js" ></script>
+        <script src="exercise.js" ></script>
+        <script src="api.js" ></script>
+        <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet"> 
+        <style>
+
+            html {
+                font-weight: 500;
+                font-family: 'Encode Sans Condensed', sans-serif;
+                background-color: rgb(247, 247, 247);
+            }
+
+            table {
+                border-collapse: separate;
+                border-spacing: 3px;
+                
+            }
+            thead {
+                color: #f3f3f3;
+                text-align:left;
+                background-color: rgb(70, 70, 70);
+                
+            }
+            tbody {
+                color: #616060;
+            }
+            tbody tr {
+                background-color: #FFF;
+                box-shadow: 2px 2px #CCC;
+            }
+
+
+            td,th {
+                padding:0.7em;
+            }
+
+            tbody tr:hover {
+                background-color: #c2f5cb;
+            }
+
+            .popup {
+                position:fixed;
+                top: 3em;
+                left: 35%;
+                z-index: 100;
+                display:none;
+                width:30%;
+                height: auto;
+                min-height: 500px;
+                padding-bottom: 25px;
+                background-color:white;
+                border: 1px solid #888;
+                border-radius: 2px;
+
+            }
+
+            select,input, button {
+                padding:0.5em;
+                margin: 0.1em;
+                
+            }
+            
+            input[type="text"] {
+                width:100%;
+            }
+            
+
+            label {
+                padding: 1em;
+            }
+
+        </style>
+        <meta charset="UTF-8"> 
+    </head>
+    <body>
+         <div id="exer" data-component="grid" data-model="exercises" style="float:left; padding:1em;" ></div>
+        <div id="musc" data-component="grid" data-model="muscles" style="float:left; padding:1em;" ></div>
+        <div id="split" data-component="grid" data-model="splits" style="float:left; padding:1em;" ></div> 
+    </body>
+</html>
